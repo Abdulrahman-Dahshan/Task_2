@@ -10,7 +10,8 @@ body{
     justify-content: space-between;
     padding: 10px 20px;
     box-shadow: 0 0 1px 0;
-    position: fixed; 
+    position: fixed;
+    z-index: 100; 
     right: 0; 
     left: 0;
 }
@@ -30,7 +31,17 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
+    position: relative;
    
+}
+
+.hamburger p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
 }
 
 
